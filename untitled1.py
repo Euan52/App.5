@@ -150,7 +150,7 @@ elif choice == "📊 總覽與錄取率排行榜":
 
     # 1. 定義標籤分類邏輯
     def assign_label(school_name):
-        if "智財" in school_name or "專利" in school_name:
+        if "智" in school_name or "專利" in school_name:
             return "智財"
         elif "財" in school_name:
             return "商法"
